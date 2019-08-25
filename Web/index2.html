@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+    <title>ejemplo</title>
+    <!--//Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <!--Custom Style-->
+    <!--link rel="stylesheet" href="css/evento_estil.css"-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/socialMedia.css">
+    <!--<link rel="stylesheet" href="css1/style.css">--uno-->
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="img/logo.jpg"></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right ">
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="dropdown-empresa">Empresa <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="vision.html">Visión</a></li>
+                            <li><a href="mision.html">Misión</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="dropdown-empresa">Lista precios</a>
+                        <ul class="dropdown-menu " id="menu">
+                            <li><input type="checkbox" name="list" id="nivel1-1"><label for="nivel1-1">Productos Laboratorio</label>
+
+                                <ul class="dropdown-menu interior">
+                                    <li><a href="#">Prueba1</a></li>
+                                    <li><a href="#">Prueba</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="construccion.html">Tratamiento de aguas</a></li>
+                        </ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="dropdown-empresa">Catálogos<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="catalogoMatLab.html">Materiales de Laboratorio</a></li>
+                            <li><a href="catalogoTratAgua.html">Tratamiento de aguas</a></li>
+                        </ul>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" id="dropdown-empresa">Productos<span class="caret"></span></a>
+                        <ul class="dropdown-menu multi-level">
+                            <li><a href="MarcasMatLab.html">Materiales de Laboratorio</a></li>
+                            <li class="dropdown-submenu">
+                                <a href="#" class="dropdown-toggle" data-toggle="collapse" aria-haspopup="true" aria-expanded="false" id="dropdown-empresa">Dropdown</a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                </ul>
+                        </ul>
+                        <!--li><a href="Proyectos.html">Proyectos</a></li>
+            
+               <li class="link-menu">
+               
+                          <form class="form-inline md-form form-sm active-cyan-2 mt-2">
+  <input class="form-control form-control-sm mr-3 w-75" type="text" placeholder="Search..." aria-label="Search">
+  <i class="fas fa-search" aria-hidden="true"></i></form>
+            
+              </li-->
+                </ul>
+            </div>
+        </div>
+    </nav><br /><br /><br />
+    <div class="container">
+        <div class="row ">
+            <div class=" col-md-4">
+                <div class="card ">
+                    <img src="img/refri.PNG" alt="Denim Jeans" style="width:50%">
+                    <h1>Refrigerador</h1>
+                    <p class="price">$19999.99</p>
+                    
+                    <p>
+                        <button type="button" class="btn btn-primary btn-lg btn-block">Ver AR app</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#prod1">
+                            Descripcion
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="prod1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Descripción Técnica</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Refrigerador 10 pies cubicos. Gris metálico</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                        <!--button type="button" class="btn btn-primary">Save changes</button-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Add to Cart</button></p>
+                </div>
+            </div>
+            <div class=" col-md-4">
+                <div class="card ">
+                    <img src="img/moto.PNG" alt="Denim Jeans" style="width:100%">
+                    <h1>Motocicleta</h1>
+                    <p class="price">$23000.30</p>
+                    <p>Motocicleta F180</p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Ver AR app</button></p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Add to Cart</button></p>
+                </div>
+            </div>
+            <div class="row col-md-4">
+                <div class="card">
+                    <img src="img/tv.PNG" alt="Denim Jeans" style="width:90%">
+                    <h1>Smart TV</h1>
+                    <p class="price">$19999</p>
+                    <p>Pantalla 55" </p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Ver AR app</button></p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Add to Cart</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class=" col-md-4   ">
+                <div class="card ">
+                    <img src="img/laptop.PNG" alt="Denim Jeans" style="width:90%">
+                    <h1>Lap top HP</h1>
+                    <p class="price">$8000.00</p>
+                    <p>Procesador:2.5GHz RAM: 8Gb</p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Ver AR app</button></p>
+                    <p><button type="button" class="btn btn-primary btn-lg btn-block">Add to Cart</button></p>
+                </div>
+            </div>
+            <div class=" col-md-4   ">
+                <div class="card">
+                    <div class=" flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="img/laptop.PNG" alt="Avatar" style="width:300px;height:300px;">
+                                <h1>Lap top HP</h1>
+                                <p class="price">$8000.00</p>
+                            </div>
+                            <div class="flip-card-back">
+
+                                <p>Procesador:2.5GHz RAM: 8Gb</p>
+                                <p><button type="button" class="btn btn-primary btn-lg btn-block">Ver AR app</button></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <!--JQuery-->
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <!--Font Awesome-->
+    <script src="https://use.fontawesome.com/ace3cb2f48.js"></script>
+    <!--Bootstrap JS-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--Custom Jquery scripts-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
